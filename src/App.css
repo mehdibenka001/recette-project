@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+}
+
+html,
+body {
+  /* background-image: url('./images/floral1 copy.jpg'); */
+  background-image: url('./images/background.png');
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body {
+  /* font-family: -apple-system, Roboto, BlinkMacSystemFont, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue,
+    sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-control {
+  width: 225%;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.modal.in .modal-dialog {
+  padding-top: 30px;
+}
+
+.control-label input::placeholder {
+  font-size: 12px;
+  font-style: italic;
+}
+.control-label {
+  font-weight: 400;
+  font-size: 22px;
+  /* font-family: -apple-system, Roboto, BlinkMacSystemFont, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue,
+    sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.panel-group .panel {
+  width: 600px;
+}
+
+ul {
+  width: 0%;
+  font-size: 20px;
+  padding: 10px 100px;
+}
+
+li {
+  font-size: 16px;
+}
+
+.panel-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-transform: lowercase;
+}
+
+.btn-toolbar .btn,
+.btn-toolbar .btn-group,
+.btn-toolbar .input-group {
+  display: inline-block !important;
+  text-align: center !important;
+  float: none;
+}
+
+.main-title {
+  /* display: inline-block !important; */
+  /* text-align: center !important;
+  float: left; */
+  display: grid;
+  justify-content: flex-start;
+  align-self: center;
+  justify-self: right;
+  color: black;
+  font-family: 'Rock Salt', cursive;
+  color: #fed631;
+  font-size: 45px;
+  line-height: inherit;
+}
+
+.top-title {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 425px 175px;
+  margin-top: 125px;
+  margin-bottom: 20px;
+}
+
+.bookIcon {
+  height: 140px;
+  align-self: center;
+  justify-self: center;
+}
+
+.addBtn {
+  width: 40px;
+  height: 40px;
+  font-size: 33px;
+  padding: 0px;
+  line-height: normal;
+  margin-left: 75px;
+  margin-top: 10px;
+  /* width: 117px;
+  height: 44px;
+  font-size: 15px;
+  margin-left: 65px; */
+  /* justify-self: center; */
+  align-self: center;
+  background-color: #fed631;
+  border-color: #fed631;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.btn-primary {
+  background-color: #fed631;
+  border-color: #fed631;
+}
+
+.btn-primary:hover {
+  background-color: #e5c100;
+  border-color: #e5c100;
+}
+
+.btn-primary:active {
+  background-color: #e5c100;
+  border-color: #e5c100;
+}
+
+.btn-primary:focus {
+  background-color: #e5c100;
+  border-color: #e5c100;
+}
+.btn-primary:active:focus {
+  background-color: #e5c100;
+  border-color: #e5c100;
+}
+
+.collapse.in {
+  background-image: url('./images/white-paper-background.jpg');
+  /* background-color: white; */
+}
+
+.panel-default > .panel-heading {
+  background-color: whitesmoke;
+}
+
+.panel-title > a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 30px;
+  font-style: italic;
+  /* border-top: 1.25px solid black; */
+  padding-top: 15px;
+  width: 600px;
+  margin: auto;
+  color:#fed631;
+}
